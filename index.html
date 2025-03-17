@@ -2,55 +2,171 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
+        rel="stylesheet"
+    />
     <title>Nexcent</title>
 </head>
 
 <body>
-
-
-
     <!-- AZIZA -->
 
     <!-- navbar -->
 
     <nav>
+        <div class="container">
+            <input type="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" class="burger"> ☰ </label>
 
+            <div class="top-logo">
+                <img src="./icons/nav-header/nexcent-logo.png" alt="top-logo" />
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="">Home</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Feature</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">Testimonal</a></li>
+                <li><a href="">FAQ</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="btn">Log in</button>
+                <button class="btn">Sign up</button>
+            </div>
+        </div>
     </nav>
 
     <!-- header -->
 
     <header>
+        <div class="container inner-swiper">
+            <div class="slide-1 slide-item">
+                <div class="header-left">
+                    <div class="hero-caption">
+                        <h1>Lessons and insights <span>from 1 years</span></h1>
+                        <p>
+                            Where to grow your business as a photographer: site or social
+                            media?
+                        </p>
+                    </div>
+                    <button class="btn btn2">Register</button>
+                </div>
+                <div class="header-right">
+                    <img src="./icons/nav-header/header-illustration.png" alt="hero" />
+                </div>
+            </div>
+            <div class="slide-2 slide-item">
+                <div class="header-left">
+                    <div class="hero-caption">
+                        <h1>Lessons and insights <span>from 2 years</span></h1>
+                        <p>
+                            Where to grow your business as a photographer: site or social
+                            media?
+                        </p>
+                    </div>
+                    <button class="btn btn2">Register</button>
+                </div>
+                <div class="header-right">
+                    <img src="./icons/nav-header/header-illustration.png" alt="hero" />
+                </div>
+            </div>
+            <div class="slide-3 slide-item">
+                <div class="header-left">
+                    <div class="hero-caption">
+                        <h1>Lessons and insights <span>from 3 years</span></h1>
+                        <p>
+                            Where to grow your business as a photographer: site or social
+                            media?
+                        </p>
+                    </div>
+                    <button class="btn btn2">Register</button>
+                </div>
+                <div class="header-right">
+                    <img src="./icons/nav-header/header-illustration.png" alt="hero" />
+                </div>
+            </div>
 
+            <button class="swipe back">&#10094;</button>
+            <button class="swipe forw">&#10095;</button>
+        </div>
     </header>
-
-
 
     <!-- ABDULATIF -->
 
     <!-- clients -->
 
-    <section class="clients">
-
+    <section class="clients container">
+        <h2>Our Clients</h2>
+        <p>We have been working with some Fortune 500+ clients</p>
+        <div class="client-logos">
+            <img src="./icons/clients/client-logo1.png" alt="" />
+            <img src="./icons/clients/client-logo2.png" alt="" />
+            <img src="./icons/clients/client-logo3.png" alt="" />
+            <img src="./icons/clients/client-logo4.png" alt="" />
+            <img src="./icons/clients/client-logo5.png" alt="" />
+            <img src="./icons/clients/client-logo6.png" alt="" />
+            <img src="./icons/clients/client-logo7.png" alt="" />
+        </div>
     </section>
 
     <!-- community -->
 
     <section class="community">
+        <h2>
+            Manage your entire community <br />
+            in a single system
+        </h2>
+        <p class="com-p">Who is Nextcent suitable for?</p>
+        <div class="membership-community">
+            <div class="member-com">
+                <img src="./icons/community/icon1.png" alt="" />
+                <h3>Membership Organisations</h3>
+                <p>
+                    Our membership management software provides full automation of
+                    membership renewals and payments
+                </p>
+            </div>
 
+            <div class="member-com">
+                <img src="./icons/community/icon2.png" alt="" />
+                <h3>
+                    National <br />
+                    Associations
+                </h3>
+                <p>
+                    Our membership management software provides full automation of
+                    membership renewals and payments
+                </p>
+            </div>
+
+            <div class="member-com">
+                <img src="./icons/community/icon3.png" alt="" />
+                <h3>
+                    Clubs And <br />
+                    Groups
+                </h3>
+                <p>
+                    Our membership management software provides full automation of
+                    membership renewals and payments
+                </p>
+            </div>
+        </div>
     </section>
-
-
 
     <!-- AYYUBXON -->
 
@@ -69,8 +185,6 @@
             <button class="pexelgr_btn">Learn more</button>
         </div>
     </section>
-
-
 
     <!-- AZIZBEK -->
 
@@ -114,8 +228,6 @@
                 </div>
             </div>
         </div>
-
-
     </section>
 
     <!-- design -->
@@ -132,49 +244,33 @@
                   In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod 
                   augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa.
                    Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.
-
             </p>
             <button class="btn">Learn More</button>
         </div>
-
     </section>
-
-
 
     <!-- BEHRUZ -->
 
     <!-- tesla -->
 
-    <section class="tesla">
-
-    </section>
-
-
+    <section class="tesla"></section>
 
     <!-- ISMOIL -->
 
     <!-- marketing -->
 
-    <section class="marketing">
-
-    </section>
-
-
+    <section class="marketing"></section>
 
     <!-- ABDULLOH -->
 
     <!-- pellen -->
 
-    <section class="pellen">
-
-    </section>
+    <section class="pellen"></section>
 
     <!-- footer -->
 
-    <footer>
-
-    </footer>
-
+    <footer></footer>
+    <script src="./script.js"></script>
 </body>
 
 </html>

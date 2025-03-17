@@ -1,87 +1,81 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 html {
-    font-size: 62.5%;
-    /* 1rem = 10px */
+  font-size: 62.5%;
+  /* 1rem = 10px */
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
+  max-width: 83%;
+  margin: 0 auto;
 }
 
 :root {
-    --primary-color: #4CAF4F;
-    --secondary-color: #263238;
-    --info-color: #2194F3;
-    --white-color: #ffffff;
-    --black-color: #000000;
-    --neutral-silver: #F5F7FA;
-    --neutral-grey: #717171;
-    --neutral-d-grey: #4D4D4D;
-    --body2-text-color: #18191F;
+  --primary-color: #4caf4f;
+  --secondary-color: #263238;
+  --info-color: #2194f3;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --neutral-silver: #f5f7fa;
+  --neutral-grey: #717171;
+  --neutral-d-grey: #4d4d4d;
+  --body2-text-color: #18191f;
 
-    --font-family: "Inter", sans-serif;
+  --font-family: "Inter", sans-serif;
 
-    --font-size-heading1: 6.4rem;
-    --font-size-heading2: 3.6rem;
-    --font-size-heading3: 2.8rem;
-    --font-size-heading4: 2rem;
-    --font-size-paragraph1: 1.6rem;
-    --font-size-paragraph2: 1.4rem;
+  --font-size-heading1: 6.4rem;
+  --font-size-heading2: 3.6rem;
+  --font-size-heading3: 2.8rem;
+  --font-size-heading4: 2rem;
+  --font-size-paragraph1: 1.6rem;
+  --font-size-paragraph2: 1.4rem;
 
-    --color-heading: #263238;
-    --color-paragraph1: #717171;
-    --color-paragraph2: #18191F;
+  --color-heading: #263238;
+  --color-paragraph1: #717171;
+  --color-paragraph2: #18191f;
 }
 
 .btn {
-    background-color: var(--primary-color);
-    color: var(--white-color);
-    text-align: center;
-    border-radius: 0.2rem;
-    display: inline-block;
-    cursor: pointer;
-    font-size: 1.6rem;
-    border: none;
-    outline: none;
-    transition: all 0.3s linear;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  text-align: center;
+  border-radius: 0.4rem;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.6rem;
+  border: none;
+  outline: none;
+  transition: all 0.3s linear;
 }
 
 .btn:hover {
-    background-color: var(--white-color);
-    color: var(--primary-color);
+  background-color: var(--neutral-silver);
+  color: var(--primary-color);
 }
 
 .btn:active {
-    transform: scale(0.98);
+  transform: scale(0.98);
 }
 
 .btn1 {
-    width: 9.1rem;
-    height: 4rem;
+  width: 9.1rem;
+  height: 4rem;
 }
 
 .btn2 {
-    width: 12.8rem;
-    height: 5.2rem;
+  width: 12.8rem;
+  height: 5.2rem;
 }
-
-
-
-
-
-
