@@ -1,0 +1,100 @@
+.card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #f8f9fa;
+    padding: 4rem 9rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img {
+    width: 326px;
+    height: 326px;
+    border-radius: 8px;
+}
+
+.content {
+    max-width: 748px;
+    flex: 1;
+    margin-left: 20px;
+    width: 748px;
+    height: 324px;
+    gap: 32px;
+    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+
+}
+
+.content p {
+    color: #555;
+    margin-bottom: 10px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+
+.name {
+    font-weight: bold;
+    color: #4CAF4F;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+
+}
+
+.title {
+    color: #555;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+
+.icons {
+    display: flex;
+    gap: 32px;
+    margin-top: 10px;
+    width: 748px;
+    height: 48px;
+}
+
+.icons img {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.meet-customers {
+    color: #4CAF4F;
+    margin-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+    width: 223px;
+    height: 44px;
+    padding: 8px;
+    gap: 8px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
