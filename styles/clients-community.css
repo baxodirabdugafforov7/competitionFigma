@@ -1,0 +1,69 @@
+.clients{
+    padding: 40px 0;
+   h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--neutral-d-grey);
+} 
+    p{
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        color:var(--neutral-grey);
+    }
+
+}
+.client-logos{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.6rem;
+}
+.community{
+    h2{
+        font-weight: 600;
+        line-height: 4.4rem;
+        font-size: 3.6rem;    
+        text-align: center;
+        color:var(--neutral-d-grey);
+    }
+    
+}
+.com-p{
+    padding-top: 8px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color:var(--neutral-grey);
+}
+.membership-community{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1.6rem;
+
+}
+.member-com{
+    text-align: center;
+    padding: 2.4rem 1.6rem;
+    box-shadow: 4px 4px 10px rgba(238, 237, 237, 0.5);
+    border-radius:8px;
+    width: 30rem;
+
+    h3{
+        margin-top: 1.6rem;
+        font-weight: 700;
+        line-height: 3.6rem;
+        font-size: 2.4rem;
+        color: var(--neutral-d-grey);
+    }
+    p{
+        margin-top: 8px;
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        color: var(--neutral-grey);
+    }
+}

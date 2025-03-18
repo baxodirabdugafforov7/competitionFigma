@@ -1,0 +1,30 @@
+.marketing {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+    .marketingImages {
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+    }
+    .marketingText {
+        display: flex;
+        gap: 10rem;
+        .marketingBox {
+            background-color: var(--neutral-silver);
+            position: relative;
+            z-index: 999;
+            bottom: 10rem;
+            display: flex;
+            flex-direction: column;
+            padding: 6rem;
+            border-radius: 0.8rem;
+            a {
+                font-size: 1.6rem;
+                color: var(--primary-color);
+            }
+        }
+    }
+}
