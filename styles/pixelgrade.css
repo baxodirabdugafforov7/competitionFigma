@@ -77,17 +77,17 @@
 }
 
 .pixelgr_h2{
-    font-size: 30px;
+    font-size: 3rem;
     color: #4D4D4D;
 }
 
 .pexelgr_btn{
-    width: 110px;
-    height: 45px;
+    width: 11rem;
+    height: 4.5rem;
     color: white;
     background-color: #4CAF4F;
     border: none;
-    border-radius: 5px;
+    border-radius: 3px;
     transition: 0.5s ease, 0.3s ease;
 }
 
